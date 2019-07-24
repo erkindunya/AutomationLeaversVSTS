@@ -18,7 +18,7 @@
     "framework": "none",
     "isCreatingSolution": true,
     "version": "1.7.1",
-    "libraryName": "automation-software-installs",
+    "libraryName": "automation-leavers",
     "libraryId": "2810afbe-e4ca-4fe3-ab51-1c80c10aa8c8",
     "packageManager": "npm",
     "componentType": "webpart"

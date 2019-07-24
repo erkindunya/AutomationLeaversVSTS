@@ -1,0 +1,71 @@
+$theme-colors: (
+    "primary": #DA242A,
+    "secondary": #007B86,
+    "info": rgb(0, 89, 99),
+    "danger": #fd7e14
+);
+
+$yiq-text-dark: #262626;
+$headings-font-family: "Franklin Gothic Medium", Arial, sans-serif;
+$font-family-sans-serif: "Arial", sans-serif;
+$headings-color: #007B86;
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+button {
+    min-width: auto;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#app-automation-forms {
+    margin: 0 auto;
+
+    .is-invalid .dropdown-toggle {
+        border-color: #fd7e14;
+    }
+
+    .dropdown-toggle .form-control {
+        height: calc(1.5rem + 4px);
+    }
+
+    p.successText {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .dropdown-toggle .form-control {
+        height: calc(1.5rem + 4px);
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+    
+    img.smlIcon {
+        width: 20px;
+    }
+
+    .VueCarousel-navigation-button {
+        font-size: 40px !important;
+        color:#da242a !important;
+    }
+    
+    .VueCarousel-navigation-prev {
+        margin-left: 4px;
+    }
+    
+    .VueCarousel-navigation-next {
+        margin-right: 4px;
+    }
+}

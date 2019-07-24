@@ -1,0 +1,91 @@
+
+table{
+  width: 100%;
+}
+
+.soft_table {
+  border-color: #fd7e14;
+  // display: block;
+  padding: 8px 0 8px 14px;
+  background: none;
+  border: 1px solid rgba(60, 60, 60, .26);
+  border-radius: 4px;
+  white-space: normal;
+  margin-bottom: 4px;
+  border-spacing: 10px;
+}
+
+.soft_ul {
+  margin-bottom: 0;
+}
+
+.soft_clear {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(60, 60, 60, .5);
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.btn-software {
+  width: 100%;
+
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+}
+
+.whofor-title {
+  margin-bottom: 30px;
+}
+
+.btn-whofor {
+  width: 200px;
+
+  &.selected {
+    background-color: #007B86;
+    border-color: #007B86;
+  }
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.other-software-area {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+
+.soft_basket_delete {
+  color:#da242a;
+  font-size: 24px;
+}
+.soft_basket_td {
+  padding-bottom: 0 !important;
+  border-spacing: 12px;
+  padding-left: 10px;
+}
+
+.soft_basket_td_remove {
+  padding-left: 10px !important;
+  padding-bottom: 5px !important;
+  border-spacing: 12px;
+  font-size: 20px
+}
+
+.soft_basket_th {
+  // text-align: center !important;
+  border-spacing: 12px;
+  padding: 0 0 5px 10px
+}
+
+.btn_soft_basket_remove {
+  padding: 0 5px 0 5px !important;
+}
+

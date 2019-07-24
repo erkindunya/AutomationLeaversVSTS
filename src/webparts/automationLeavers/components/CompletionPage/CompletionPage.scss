@@ -1,0 +1,57 @@
+.soft_field_set {
+  border-color: #fd7e14;
+  display: flex;
+  padding: 4px;
+  background: none;
+  border: 1px solid rgba(60, 60, 60, .26);
+  border-radius: 4px;
+  white-space: normal;
+  margin-bottom: 4px;
+}
+
+.soft_ul {
+  margin-bottom: 0;
+}
+
+.soft_clear {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(60, 60, 60, .5);
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.btn-software {
+  width: 100%;
+
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+}
+
+.whofor-title {
+  margin-bottom: 30px;
+}
+
+.btn-whofor {
+  width: 200px;
+
+  &.selected {
+    background-color: #007B86;
+    border-color: #007B86;
+  }
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.other-software-area {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
