@@ -12,6 +12,7 @@ const build = require('@microsoft/sp-build-web');
 const gulpSequence = require('gulp-sequence');
 
 build.addSuppression(`Warning - [sass] The local CSS class 'ms-Grid' is not camelCase and will not be type-safe.`);
+build.addSuppression(/filename should end with module/);
 
 // Create clean distrubution package
 gulp.task('dist', gulpSequence('clean', 'bundle', 'package-solution'));

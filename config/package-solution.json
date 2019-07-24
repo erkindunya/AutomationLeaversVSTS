@@ -4,8 +4,7 @@
     "name": "automation-leavers-client-side-solution",
     "id": "2810afbe-e4ca-4fe3-ab51-1c80c10aa8c8",
     "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true
+    "includeClientSideAssets": true
   },
   "paths": {
     "zippedPackage": "solution/automation-leavers.sppkg"
