@@ -1,0 +1,24 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "vuejs",
+    "pnp-libraries": [
+      "jquery@3"
+    ],
+    "pnp-ci": [
+      "azure"
+    ],
+    "pnp-vetting": [],
+    "spfxenv": "spo"
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "spo",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "version": "1.7.1",
+    "libraryName": "automation-leavers",
+    "libraryId": "2810afbe-e4ca-4fe3-ab51-1c80c10aa8c8",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
